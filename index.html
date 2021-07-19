@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vue Chan</title>
+    <style>
+        [v-cloak] {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div
+        v-cloak
+        v-scope="App({ name: 'Vue Chan' })"
+    >
+        {{ message }}
+    </div>
+    <script src="./src/index.ts" type="module"></script>
+</body>
+</html>
